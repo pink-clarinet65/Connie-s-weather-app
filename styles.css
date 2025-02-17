@@ -15,7 +15,7 @@ body {
   margin: 20px 15px;
   padding: 25px 20px;
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 700px;
   box-shadow: 10px 5px 5px gold;
 }
 
@@ -40,4 +40,8 @@ body {
 
 .links {
   color: lightcoral;
+}
+
+.publisher-details {
+  padding: 10px 15px;
 }
