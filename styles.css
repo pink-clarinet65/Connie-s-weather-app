@@ -18,3 +18,7 @@ body {
   max-width: 600px;
   box-shadow: 10px 5px 5px gold;
 }
+
+.search-form-input {
+  background-color: rgb(153, 226, 199);
+}
