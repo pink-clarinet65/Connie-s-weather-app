@@ -63,8 +63,21 @@ h1 {
 
 h2 {
   display: block;
-  font-size: 50px;
+  font-size: 57px;
   position: fixed;
-  top: 100px;
+  top: 87px;
   right: 340px;
+}
+
+.temperature-icon {
+  position: relative;
+  top: -8px;
+  font-size: 40px;
+  margin-right: 5px;
+}
+
+.temperature-symbol {
+  font-size: 28px;
+  position: relative;
+  top: -38px;
 }
