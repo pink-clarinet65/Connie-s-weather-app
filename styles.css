@@ -47,5 +47,10 @@ body {
 }
 
 .weather-app-details {
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.weather-paragraph {
+  font-size: 17px;
 }
