@@ -54,3 +54,6 @@ body {
 .weather-paragraph {
   font-size: 17px;
 }
+.weather-paragraph strong {
+  color: #f65282;
+}
