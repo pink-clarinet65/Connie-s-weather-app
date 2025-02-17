@@ -45,3 +45,7 @@ body {
 .publisher-details {
   padding: 10px 15px;
 }
+
+.weather-app-details {
+  font-size: 20px;
+}
