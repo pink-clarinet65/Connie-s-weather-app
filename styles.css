@@ -51,9 +51,9 @@ body {
   font-weight: 400;
 }
 
-.weather-paragraph {
+.weather-app-details small {
   font-size: 17px;
 }
-.weather-paragraph strong {
+.weather-app-details strong {
   color: #f65282;
 }
