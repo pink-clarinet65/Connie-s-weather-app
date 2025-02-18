@@ -16,7 +16,7 @@
     <div class="weather-app">
       <header>
         <div class="weather-app-details">
-          <h1>Rabat</h1>
+          <h1 id="city-name">Rabat</h1>
           <p>
             <small>
               Monday 16:45, moderate rain <br />
@@ -32,12 +32,13 @@
         </div>
       </header>
       <main>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city.."
             required
             class="search-form-input"
+            id="search-form-input"
           />
           <input type="submit" value="Search" class="search-form-button" />
         </form>
