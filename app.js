@@ -7,9 +7,9 @@ function updateCurrentWeather(response) {
   let descriptionElement = document.querySelector("#weather-description");
   descriptionElement.innerHTML = response.data.condition.description;
   let humidityElement = document.querySelector("#weather-humidity");
-  humidityElement.innerHTML = response.data.temperature.humidity;
+  humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
   let windElement = document.querySelector("#weather-wind");
-  windElement.innerHTML = response.data.wind.speed;
+  windElement.innerHTML = `${response.data.wind.speed}km/h`;
   console.log(response.data);
   console.log(response.data.wind.speed);
   console.log(response.data.condition.description);
