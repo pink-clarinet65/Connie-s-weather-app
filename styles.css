@@ -82,3 +82,30 @@ h2 {
   top: -38px;
   margin-left: -10px;
 }
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+.forecast-day {
+  text-align: center;
+  color: #0e0105;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.forecast-icon {
+  text-align: center;
+  font-size: 22px;
+}
+.forecast-temperatures {
+  text-align: center;
+  font-size: 18px;
+  color: #f55182;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+.forecast-temp-one {
+  padding: 0 7px;
+}
