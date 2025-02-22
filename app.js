@@ -56,3 +56,25 @@ function search(event) {
 let searchFormElement = document.querySelector("#search-form");
 console.log(searchFormElement);
 searchFormElement.addEventListener("submit", search);
+
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let days = ["Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+  let forecastHTML = "";
+
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `<div class="forecast-week">
+    <div class="forecast-day">${day}</div>
+    <div class="forecast-icon">⛅</div>
+    <div class="forecast-temperatures">
+      <div class="forecast-temp-one"><strong>15°</strong></div>
+      <div class="forecast-temp-one">9°</div>
+    </div>
+  </div>`;
+  });
+  forecastElement.innerHTML = forecastHTML;
+}
+displayForecast();
