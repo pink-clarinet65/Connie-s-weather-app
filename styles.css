@@ -85,7 +85,7 @@ h2 {
 .weather-forecast {
   display: flex;
   justify-content: space-around;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 .forecast-day {
   text-align: center;
@@ -96,7 +96,7 @@ h2 {
 }
 .forecast-icon {
   text-align: center;
-  font-size: 22px;
+  width: 60%;
 }
 .forecast-temperatures {
   text-align: center;
